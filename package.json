@@ -1,0 +1,29 @@
+{
+  "author": "Nicola Sanitate <n.sanitate@apuliasoft.com (http://www.apuliasoft.com/)",
+  "description": "Il menù LSP",
+  "devDependencies": {
+    "@types/chai": "3.4.35",
+    "@types/mocha": "2.2.40",
+    "@types/node": "7.0.22",
+    "chai": "3.5.0",
+    "mocha": "3.2.0",
+    "mocha-lcov-reporter": "1.3.0",
+    "ts-node": "3.0.2",
+    "typescript": "2.3.3"
+  },
+  "keywords": [
+    "solid principles",
+    "liskov's substitution principle"
+  ],
+  "license": "MIT",
+  "main": "src/chef.ts",
+  "name": "menu-lsp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apuliasoft/menu-lsp"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register **/*.spec.ts --watch-extensions ts --watch"
+  },
+  "version": "0.0.2"
+}
