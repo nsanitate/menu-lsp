@@ -48,7 +48,7 @@ describe('Menu', () => {
         expect(actual.dolci).to.contains(torta);
     });
 
-    xit('dovrebbe mettere la quiche lorraine tra i dolci', () => {
+    it('dovrebbe mettere la quiche lorraine tra i dolci', () => {
         // Arrange
         const torta = new QuicheLorraine();
 
@@ -56,7 +56,7 @@ describe('Menu', () => {
         const actual = chef.decidiMenu(torta);
 
         // Assert
-        expect(actual.dolci).to.contains(torta);
+        expect(actual.antipasti).to.contains(torta);
     });
     
 });

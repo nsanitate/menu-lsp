@@ -1,7 +1,7 @@
-import { Torta } from './torta';
+import { Piatto } from './piatto';
 
 export class QuicheLorraine
-    extends Torta {
+    extends Piatto {
 
     protected ingredienti = ['uova', 'sale', 'farina'];
 
